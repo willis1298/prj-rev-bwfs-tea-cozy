@@ -1,0 +1,140 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+}
+header{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: inherit;
+}
+.logo{
+  padding-left: 10px;
+  flex-grow: 1;
+}
+ .logo img{
+  height: 50px;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+a{
+  color: seashell;
+  text-decoration: underline;
+}
+.main{
+  display: flex;
+  position: relative;
+  top: 69px;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img-mission-background.jpg");
+}
+div .midhdrs{
+  background-color: black;
+  color: seashell;
+  height: 125px;
+  width: 1200px;
+  position: absolute;
+  text-align: center;
+}
+.midhdrs h2{
+  margin-top: 15px;
+  align-content: center;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+  width: 1000px;
+  height: 700px;
+
+}
+.cntrhdrs h2{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.cntrhdrs h4{
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px;
+  align-items: center;
+  justify-content: center;
+
+}
+.column span{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("../img-locations-background.jpg");
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+}
+
+.locations{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 1200px;
+}
+
+.box1, .box2, .box3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px;
+}
+.lochdr{
+  padding-bottom: 15px;
+  margin: 0;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 1200px;
+}
+.contact{
+  text-align: center;
+}
+.copyright{
+  margin-top: 50px;
+  margin-left: 0;
+}
